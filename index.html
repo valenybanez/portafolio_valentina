@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Ybañez Parra - Diseño Gráfico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="index.css">
+     <link rel="shortcut icon" href="/src/logo/LOGO _.png" />
+     <script async src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Valentina Ybañez Parra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recent-works">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/home/walen.jpg"  class="d-block w-100" alt="Imagen 1">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="src/home/walen2.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Perfil Profesional</h2>
+                    <p class="lead">
+                        Soy una diseñadora gráfica apasionada por la creación de soluciones visuales innovadoras que capturan la esencia de cada marca.
+                        
+                        Mi enfoque combina la estética con la estrategia, asegurando que cada diseño no solo sea visualmente atractivo, sino también efectivo en comunicar el mensaje deseado. Mi habilidad para adaptarme a diferentes estilos y medios me permite ofrecer soluciones personalizadas que cumplen con los objetivos y necesidades de cada cliente.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="src/home/fotovalen.jpg" width="60%" class="img-fluid " alt="Foto Perfil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recent-works" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Trabajos Recientes</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                   <a href="src/trabajos/Valentina Ybañez_Manual de identidad corrección.pdf">
+                    <div class="card">
+                        <img src="src/home/manual.png" class="card-img-top" alt="Trabajo 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Manual de identidad grafica </h5>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <a href="src/videos/animatic.mp4">
+                        <div class="card">
+                            <img src="src/home/animatic.png" class="card-img-top" alt="Trabajo 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Animación en 2D</h5>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="src/trabajos/portafolio.pdf">
+                        <div class="card">
+                            <img src="src/home/portafolio.png" class="card-img-top" alt="Trabajo 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Portafolio de servicios</h5>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="video-carousel" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Videos Destacados</h2>
+            <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+                            <iframe src="/src/videos/valentina ybañez I Wanna be.mp4?autoplay=1&mute=1" allowfullscreen ></iframe>
+                        </div>
+                        <div class="row mt-3 justify-content-center">
+                            <div class="col-md-8 text-center">
+                               <div class="card-body">
+                                <h5 class="card-title">Animación de tipografía</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg" onclick="like()">Me gusta 
+                                     <span id="- me gusta"></span>
+                                 </button>
+             
+                                 <button class="btn btn-primary btn-lg" onclick="dislike()"> No me gusta
+                                     <span id="- no me gusta"></span>
+                                 </button>  
+                             </div>
+
+
+                            </div>                            
+                            
+                        
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+                            <iframe src="/src/videos/escena 2 chico sirviendo cafe_3.mp4?autoplay=1&mute=1" allowfullscreen></iframe>
+                        </div>
+                        <div class="row mt-3 justify-content-center">
+                            <div class="col-md-8 text-center">
+                               <div class="card-body">
+                                <h5 class="card-title">Animación</h5>
+                               </div>
+                            </div>
+                        <div class="text-center">
+                           <button class="btn btn-primary btn-lg" onclick="MeGusta()">Me gusta 
+                                <span id="gusta"></span>
+                            </button>
+        
+                            <button class="btn btn-primary btn-lg" onclick="NomeGusta()"> No me gusta
+                                <span id="no me gusta"></span>
+                            </button>  
+                        </div>
+                           
+                        </div>
+                    </div>  
+
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+                            <iframe src="src/videos/Secuencia 02.mp4" allowfullscreen></iframe>
+                        </div>
+                        <div class="row mt-3 justify-content-center">
+                            <div class="col-md-8 text-center">
+                               <div class="card-body">
+                                <h5 class="card-title">Stop motion</h5>
+                            </div>
+                            </div>
+                        
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg" onclick="_MeGusta()">Me gusta 
+                                     <span id="_me gusta"></span>
+                                 </button>
+             
+                                 <button class="btn btn-primary btn-lg" onclick="_NomeGusta()"> No me gusta
+                                     <span id="_no me gusta"></span>
+                                 </button>  
+                             </div>
+                        </div>
+                    </div>  
+
+
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+                            <iframe src="src/videos/Gopro_Daniela,Valentina,Wendy.mp4" allowfullscreen></iframe>
+                        </div>
+                        <div class="row mt-3 justify-content-center">
+                            <div class="col-md-8 text-center">
+                               <div class="card-body">
+                                <h5 class="card-title">Edición de audio</h5>
+                            </div>
+                            </div>
+                            
+                            
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg" onclick="_like()">Me gusta 
+                                     <span id="encanta"></span>
+                                 </button>
+             
+                                 <button class="btn btn-primary btn-lg" onclick="_dislike()"> No me gusta
+                                     <span id="no me encanta"></span>
+                                 </button>  
+                             </div>
+                        </div>
+                    </div>  
+
+
+                </div>
+             
+                    <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+               
+                
+
+                <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+         
+          
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Diseño Gráfico</h5>
+                            <p class="card-text">El diseño gráfico es el arte de comunicar mensajes visualmente mediante la combinación de imágenes, texto y elementos gráficos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ilustración Digital</h5>
+                            <p class="card-text">Es una forma de arte que utiliza herramientas digitales para crear imágenes y gráficos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Animación</h5>
+                            <p class="card-text">Es el proceso de crear la ilusión de movimiento a través de una serie de imágenes estáticas llamadas cuadros o fotogramas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="mb-4">Contacto</h2>
+                    <p class="lead">Puedes encontrarme en las siguientes redes sociales:</p>
+                    <div class="mb-4">
+                        <a href="https://www.facebook.com/?locale=es_LA" class="fab fa-facebook" target="_blank"></a>
+                        <a href="https://x.com/x.?mx=2" class="fab fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://wa.me/573208715417" class="fab fa-whatsapp" target="_blank"></a>
+                    </div>
+
+                        
+                    
+                    <a href="src/trabajos/Valentina Ybañez_Manual de identidad corrección.pdf" class="btn btn-primary btn-lg">Manual de Identidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

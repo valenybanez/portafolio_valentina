@@ -1,0 +1,68 @@
+:root {
+    --primary: #8765A8;
+    --secondary: #684B85;
+    --accent: #C19DC8;
+    --dark: #2A2150;
+    --light: #FFFFFF;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--dark);
+    background-color: var(--light);
+}
+.navbar {
+   height: 80px;
+   background-color: var(--primary);
+}
+.navbar-brand, .nav-link {
+    color: var(--light) !important;
+}
+.nav-link:hover {
+    color: var(--accent) !important;
+}
+h2 {
+    color: var(--primary);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 10px;
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+#skills .card {
+ 
+    color: var(--dark);
+}
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+footer a {
+    color: var(--accent);
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: var(--light);
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#video-carousel{
+    background-color: var(--accent);
+}
